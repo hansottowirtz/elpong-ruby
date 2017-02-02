@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'httpong/version'
+require 'elpong/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'httpong'
-  spec.version       = HTTPong::VERSION
+  spec.name          = 'elpong'
+  spec.version       = Elpong::VERSION
   spec.authors       = ['Hans Otto Wirtz']
   spec.email         = ['hansottowirtz@gmail.com']
 
-  spec.summary       = 'HTTPong for Ruby'
-  spec.homepage      = 'https://github.com/hansottowirtz/httpong-ruby'
+  spec.summary       = 'Elpong for Ruby'
+  spec.homepage      = 'https://github.com/hansottowirtz/elpong-ruby'
   spec.license       = 'MIT'
 
   spec.metadata['allowed_push_host'] = 'https://rubygems.org'

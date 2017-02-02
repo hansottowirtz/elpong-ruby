@@ -1,8 +1,8 @@
 require 'json'
-require 'httpong/version'
-require 'httpong/scheme'
+require 'elpong/version'
+require 'elpong/scheme'
 
-module HTTPong
+module Elpong
   @@schemes = []
 
   class << self
@@ -14,7 +14,7 @@ module HTTPong
       @@schemes
     end
 
-    def get_scheme(name)
+    def get(name)
       @@schemes.find{|scheme| scheme.name == name}
     end
 

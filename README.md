@@ -1,11 +1,11 @@
-# HTTPong for Ruby
+# Elpong for Ruby
 
 ```bash
-gem install httpong
+gem install elpong
 ```
 
 ```ruby
-scheme = HTTPong::Scheme("config/scheme.json") # or scheme.cson, if cson2json is installed.
+scheme = Elpong::Scheme('config/scheme.json')
 scheme.name
 scheme.reload
 scheme.to_json
