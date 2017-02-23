@@ -1,2 +1,6 @@
 language: ruby
-script: rspec
+cache: bundler
+sudo: false
+rvm:
+- 2.4.0
+script: bundle exec rspec
